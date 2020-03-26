@@ -1,0 +1,289 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF Target Transform {
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.0161565 0.8 0.0903135
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.4
+		}
+
+	}
+}
+DEF Joint1 Transform {
+	translation	0 0 0
+	children [ 
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    ambientIntensity	0.2
+				    diffuseColor	0.00333891 0.19148 0.8
+			    }
+
+		    }
+
+		    geometry	Sphere {
+			    radius	0.3
+		    }
+
+	    }
+
+	    DEF Link1 Transform {
+		    translation	0 1 0
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Cylinder {
+					height	2
+					radius	0.1
+				}
+
+			}
+
+			DEF Joint2 Transform {
+				translation	0 1 0
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+							    ambientIntensity	0.2
+							    diffuseColor	0.8 0.0161565 0.0317485
+						    }
+
+					    }
+
+					    geometry	Sphere {
+						    radius	0.3
+					    }
+
+				    }
+
+				    DEF Link2 Transform {
+					    translation	0 1 0
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	Cylinder {
+								radius	0.1
+							}
+
+						}
+
+						DEF Joint3 Transform {
+							translation	0 1 0
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+										    ambientIntensity	0.2
+										    diffuseColor	0.8 0.0161565 0.0317485
+									    }
+
+								    }
+
+								    geometry	Sphere {
+									    radius	0.3
+								    }
+
+							    }
+
+							    DEF Link3 Transform {
+								    translation	0 1 0
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+											}
+
+										}
+
+										geometry	Cylinder {
+											radius	0.1
+										}
+
+									}
+
+									DEF Joint4 Transform {
+										translation	0 1 0
+										children [ 
+										    Shape {
+											    appearance	Appearance {
+												    material	Material {
+													    ambientIntensity	0.2
+													    diffuseColor	0.8 0.129816 0.16101
+												    }
+
+											    }
+
+											    geometry	Sphere {
+												    radius	0.3
+											    }
+
+										    }
+
+										    DEF Link4 Transform {
+											    translation	0 1 0
+											    children [ 
+												Shape {
+													appearance	Appearance {
+														material	Material {
+														}
+
+													}
+
+													geometry	Cylinder {
+														radius	0.1
+													}
+
+												}
+
+												DEF Joint5 Transform {
+													translation	0 1 0
+													children [ 
+													    Shape {
+														    appearance	Appearance {
+															    material	Material {
+																    ambientIntensity	0.2
+																    diffuseColor	0.8 0.0161565 0.0317485
+															    }
+
+														    }
+
+														    geometry	Sphere {
+															    radius	0.3
+														    }
+
+													    }
+
+													    DEF Link5 Transform {
+														    translation	0 1 0
+														    children [ 
+															Shape {
+																appearance	Appearance {
+																	material	Material {
+																	}
+
+																}
+
+																geometry	Cylinder {
+																	radius	0.1
+																}
+
+															}
+
+															DEF Joint6 Transform {
+																translation	0 1 0
+																children [ 
+																    Shape {
+																	    appearance	Appearance {
+																		    material	Material {
+																			    ambientIntensity	0.2
+																			    diffuseColor	0.8 0 0
+																		    }
+
+																	    }
+
+																	    geometry	Sphere {
+																		    radius	0.3
+																	    }
+
+																    }
+
+																    DEF Link6 Transform {
+																	    translation	0 1 0
+																	    children [ 
+																		Shape {
+																			appearance	Appearance {
+																				material	Material {
+																				}
+
+																			}
+
+																			geometry	Cylinder {
+																				radius	0.1
+																			}
+
+																		}
+
+																		DEF Joint7 Transform {
+																			translation	0 1 0
+																			children [ 
+																			    Shape {
+																				    appearance	Appearance {
+																					    material	Material {
+																						    ambientIntensity	0.2
+																						    diffuseColor	0.8 0.144702 0.113509
+																					    }
+
+																				    }
+
+																				    geometry	Sphere {
+																					    radius	0.3
+																				    }
+
+																			    }
+
+																			    DEF Link7 Transform {
+																				    translation	0 1 0
+																				    children Shape {
+																					    appearance	Appearance {
+																						    material	Material {
+																							    ambientIntensity	0.2
+																							    diffuseColor	0.8 0.76855 0.00736418
+																						    }
+
+																					    }
+
+																					    geometry	Cylinder {
+																						    radius	0.1
+																					    }
+
+																				    }
+																			    }
+																			]
+																		}
+																	    ]
+																    }
+																]
+															}
+														    ]
+													    }
+													]
+												}
+											    ]
+										    }
+										]
+									}
+								    ]
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+	]
+}
